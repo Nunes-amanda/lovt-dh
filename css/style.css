@@ -15,8 +15,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 50px;
-  border-bottom: 1px solid #aaa;
-  box-shadow: -1px 1px 17px -2px rgba(119, 119, 119, 1);
+  box-shadow: 1px 1px 17px -2px rgba(119, 119, 119, 1);
   width: 100%;
 }
 
@@ -31,27 +30,30 @@ header {
   text-transform: uppercase;
   font-size: 4rem;
   color: #777;
-  margin: 0;
+  margin: 0 auto;
+  padding-right: 0;
 }
 
 #subt {
   flex: 1;
-  font-size: 1rem;
+  font-size: 20px;
   color: #aaa;
-  margin: 0;
+  margin: 0 auto;
+  padding-left: 0;
+  justify-content: left;
 }
 
 #menuBox {
   border: 2px solid #fff;
   transition: 0.8s;
   padding: 8px;
-  width: 35px;
-  height: 35px;
+  transition: 0.8s;
 }
 
 #menuBox:hover {
   border: 2px solid coral;
   padding: 2px;
+  transition: 0.8s;
 }
 
 /*MAIN*/
@@ -107,7 +109,7 @@ header {
   font-size: 3rem;
   color: #888;
   margin: 0;
-  padding: 5px 7px;
+  padding: 4px 6px;
 }
 
 .highlighted div #new {
@@ -116,7 +118,14 @@ header {
   align-items: center;
   background-color: #51d275;
   border-radius: 26px;
-  padding: 5px 8px;
+  padding: 4px 6px;
+  transition: 0.9s;
+  box-shadow: 1px 1px 31px 6px rgba(255,255,255,0.84);
+}
+
+.highlighted div #new:hover {
+  transition: 0.9s;
+  box-shadow: 1px 1px 31px 6px rgba(81,210,117,0.84);
 }
 
 .highlighted div #new p {
@@ -130,7 +139,14 @@ header {
   align-items: center;
   background-color: #dc9730;
   border-radius: 26px;
-  padding: 5px 8px;
+  padding: 4px 6px;
+  transition: 0.9s;
+  box-shadow: 1px 1px 31px 6px rgba(255,255,255,0.84);
+}
+
+.highlighted div #sale:hover {
+  transition: 0.9s;
+  box-shadow: 1px 1px 31px 6px rgba(220,151,48,0.84);
 }
 
 .highlighted div #sale p {
