@@ -51,8 +51,8 @@ header {
 }
 
 #menuBox:hover {
-  border: 2px solid coral;
-  padding: 2px;
+  border: 1px solid coral;
+  padding: 4px;
   transition: 0.8s;
 }
 
