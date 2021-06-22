@@ -17,6 +17,10 @@ header {
   padding: 10px 50px;
   box-shadow: 1px 1px 17px -2px rgba(119, 119, 119, 1);
   width: 100%;
+  position:fixed;
+  top: 5px;
+  z-index: 2;
+  background-color: #fff;
 }
 
 #logoLovt {
@@ -32,6 +36,8 @@ header {
   color: #777;
   margin: 0 auto;
   padding-right: 0;
+  position: relative;
+  left: 150px;
 }
 
 #subt {
@@ -41,6 +47,10 @@ header {
   margin: 0 auto;
   padding-left: 0;
   justify-content: left;
+  align-self:initial;
+  position: relative;
+  left: 100px;
+  line-height: 25px;
 }
 
 #menuBox {
@@ -48,6 +58,10 @@ header {
   transition: 0.8s;
   padding: 8px;
   transition: 0.8s;
+  position: relative;
+  right: 120px;
+  width: 50px;
+  height: 60px;
 }
 
 #menuBox:hover {
@@ -62,7 +76,7 @@ header {
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 100px 0 30px;
 }
 
 #photoCarousel {
@@ -194,19 +208,19 @@ header {
 }
 
 .yourStyle #classic {
-  margin-bottom: 100px;
+  margin-bottom: 85px;
 }
 
 #industrial {
-  background-image: url("../img/industrial.png");
+  background-image: url("../img/industrial.svg");
 }
 
 #modern {
-  background-image: url("../img/modern.png");
+  background-image: url("../img/modern.svg");
 }
 
 #classic {
-  background-image: url("../img/classic.png");
+  background-image: url("../img/classic.svg");
 }
 
 #industrial,
@@ -225,20 +239,25 @@ footer {
   color: #FFF;
   font-size: 12px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
-  padding: 40px 50px;
+  padding: 20px 30px;
+  margin:0 auto;
 }
 
 #map img {
-  width: 350px;
-  height: 260px;
+  width: 500px;
+  height: 40vh;
   margin: 30px 20px;
+  position: relative;
+  right: 60px;
 }
 
-#contact {
+.contact {
   font-size: 17px;
+  position: relative;
+  left: 35px;
 }
 
 .social-media {
