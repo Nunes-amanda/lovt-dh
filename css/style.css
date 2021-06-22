@@ -289,8 +289,7 @@ footer {
   }
 
   footer {
-    flex-direction: row;
+    flex-direction: column-reverse;
     width: 100%;
 }
-
 }
