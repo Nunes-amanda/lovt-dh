@@ -252,14 +252,14 @@ footer {
   padding-right: 10px;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 420px) {
   .container {
     width: 100%;
   }
 
   section #photoCarousel {
     background-size: 100%;
-    height: 20vh;
+    height: 30vh;
   }
 
   .highlighted{
@@ -270,8 +270,8 @@ footer {
   }
 
   #high1, #high2 {
-    width: 80%;
-    margin: 20px 25px;
+    width: 70%;
+    margin: 30px 25px;
   }
 
   #high1 img, #high2 img{
@@ -279,7 +279,12 @@ footer {
   }
 
   #yourStyle {
+    font-size: 25px;
     margin: 10px 10px;
+  }
+
+  #yourStyle {
+    font-size: 25px;
   }
 
   #industrial,
