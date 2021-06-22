@@ -14,13 +14,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
+  padding: 60px 50px;
   box-shadow: 1px 1px 17px -2px rgba(119, 119, 119, 1);
   width: 100%;
-  position:fixed;
-  top: 5px;
-  z-index: 2;
-  background-color: #fff;
 }
 
 #logoLovt {
@@ -36,21 +32,18 @@ header {
   color: #777;
   margin: 0 auto;
   padding-right: 0;
-  position: relative;
-  left: 150px;
 }
 
 #subt {
   flex: 1;
   font-size: 20px;
+  line-height: 25px;
   color: #aaa;
   margin: 0 auto;
-  padding-left: 0;
   justify-content: left;
-  align-self:initial;
-  position: relative;
-  left: 100px;
-  line-height: 25px;
+  z-index: 2;
+  position:relative;
+  right: 40px;
 }
 
 #menuBox {
@@ -58,10 +51,6 @@ header {
   transition: 0.8s;
   padding: 8px;
   transition: 0.8s;
-  position: relative;
-  right: 120px;
-  width: 50px;
-  height: 60px;
 }
 
 #menuBox:hover {
@@ -76,7 +65,7 @@ header {
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
-  padding: 100px 0 30px;
+  padding: 0 40px;
 }
 
 #photoCarousel {
@@ -208,7 +197,7 @@ header {
 }
 
 .yourStyle #classic {
-  margin-bottom: 85px;
+  margin-bottom: 100px;
 }
 
 #industrial {
@@ -237,34 +226,31 @@ header {
 footer {
   background-color: #333;
   color: #FFF;
-  font-size: 12px;
+  font-size: 1rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 20px 30px;
-  margin:0 auto;
+  padding: 40px 50px;
 }
 
 #map img {
-  width: 500px;
-  height: 40vh;
-  margin: 30px 20px;
-  position: relative;
-  right: 60px;
+  width: 550px;
+  height: 30vh;
+  margin: 40px 0;
 }
 
-.contact {
-  font-size: 17px;
-  position: relative;
-  left: 35px;
+#contact {
+  font-size: 1rem;
+  margin: 40px 0;
+  padding-right: 20px;
 }
 
 .social-media {
-  font-size: 17px;
+  font-size: 1rem;
   font-weight: normal;
   text-transform: uppercase;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .social-media img {
@@ -298,12 +284,7 @@ footer {
   }
 
   #yourStyle {
-    font-size: 25px;
     margin: 10px 10px;
-  }
-
-  #yourStyle {
-    font-size: 25px;
   }
 
   #industrial,
@@ -316,4 +297,12 @@ footer {
     flex-direction: column-reverse;
     width: 100%;
 }
+
+  .contact, .social-media {
+    font-size: 1rem;
+  }
+
+  .contact {
+    margin-top: 10px;
+  }
 }
